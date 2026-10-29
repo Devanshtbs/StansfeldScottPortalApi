@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>b7f2f7f0-8f2e-4b7a-9a6e-stansfeldscottportal</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Identity.Web" Version="3.15.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StansfeldScott.Portal.Services\StansfeldScott.Portal.Services.csproj" />
+    <ProjectReference Include="..\StansfeldScott.Portal.Infrastructure\StansfeldScott.Portal.Infrastructure.csproj" />
+    <ProjectReference Include="..\StansfeldScott.Portal.Common\StansfeldScott.Portal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
